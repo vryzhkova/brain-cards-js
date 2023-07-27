@@ -124,6 +124,8 @@ export const createEditCategory = (app) => {
     tbody.append(emptyRow);
   });
 
+  // const parseData = () => {};
+
   const mount = (data = { title: TITLE, pairs: [] }) => {
     tbody.textContent = "";
     title.textContent = data.title;
